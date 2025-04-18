@@ -10,8 +10,8 @@ export default function useRequest(endpoint, query) {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     headers: {
-      "X-RapidAPI-Key": "8e99652f73msh0d6b44b17e30ae3p165001jsna1eed97a1b9c",
-      "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+      "x-rapidapi-key": "3e0670ceeemsh4c1515ab72d530ep1cfe06jsn29cba9025187",
+      "x-rapidapi-host": "jsearch.p.rapidapi.com",
     },
     params: { ...query },
   };
