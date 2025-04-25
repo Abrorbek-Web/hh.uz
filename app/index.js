@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { View, SafeAreaView } from "react-native";
 import React, { useCallback } from "react";
 import { ScrollView } from "react-native-gesture-handler";
 import { MyJobs, PopularJobs, Search } from "../components";
